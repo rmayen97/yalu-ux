@@ -1,0 +1,6 @@
+{
+  "name": "Yumpii Bot Simulator",
+  "description": "Simulador interactivo para flujos de chatbots de WhatsApp basados en la estructura JSON de Yumpii. Permite cargar configuraciones, interactuar con el bot y visualizar el estado interno.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

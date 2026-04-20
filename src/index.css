@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f0f2f5] text-[#111b21] font-sans transition-colors duration-300;
+  }
+}
+
+@layer components {
+  /* WhatsApp specific colors & styles (Light Mode) */
+  .wa-bg-main { @apply bg-[#efeae2]; }
+  .wa-bg-header { @apply bg-[#008069]; }
+  .wa-bg-user { @apply bg-[#d9fdd3]; }
+  .wa-bg-bot { @apply bg-[#ffffff]; }
+  .wa-accent { @apply text-[#008069]; }
+  .wa-border { @apply border-[#e9edef]; }
+  .wa-text-primary { @apply text-[#111b21]; }
+  .wa-text-secondary { @apply text-[#667781]; }
+}
